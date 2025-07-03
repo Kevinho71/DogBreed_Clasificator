@@ -1,0 +1,54 @@
+# ---------------------
+# Entornos virtuales
+# ---------------------
+venv/
+.env
+.env.*           # otros .env.local, etc.
+
+# ---------------------
+# Cachés y artefactos
+# ---------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# ---------------------
+# Jupyter
+# ---------------------
+.ipynb_checkpoints/
+
+# ---------------------
+# Datos (raw/train/test)
+# ---------------------
+data/raw/
+data/train/
+data/test/
+labels.csv       # si es muy pesado o lo regeneras
+
+# ---------------------
+# Modelos y artefactos binarios
+# ---------------------
+models/
+*.h5
+*.pkl
+
+# ---------------------
+# Notebooks output, logs
+# ---------------------
+*.log
+*.tmp
+
+# ---------------------
+# IDEs y editores
+# ---------------------
+.vscode/
+.idea/
+*.sublime-*
+
+# ---------------------
+# Archivos del sistema
+# ---------------------
+.DS_Store
+Thumbs.db
